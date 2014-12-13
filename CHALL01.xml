@@ -1,11 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_left" id="28" x="428" y="199">
-    <next>
-      <block type="movement_stop" id="144">
-        <next>
-          <block type="movement_right" id="18"></block>
-        </next>
-      </block>
-    </next>
+  <block type="sensor_object" id="160" x="23" y="-2">
+    <field name="OBJECT">LEFTFRONT</field>
   </block>
 </xml>
