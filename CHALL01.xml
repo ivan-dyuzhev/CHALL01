@@ -53,34 +53,14 @@
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="movement_left" id="50">
+                                                  <block type="movement_right" id="94">
                                                     <next>
-                                                      <block type="robot_delay" id="51" inline="true" disabled="true">
+                                                      <block type="robot_delay" id="95" inline="true">
                                                         <value name="DELAY">
-                                                          <block type="math_number" id="52">
-                                                            <field name="NUM">4000</field>
+                                                          <block type="math_number" id="96">
+                                                            <field name="NUM">1600</field>
                                                           </block>
                                                         </value>
-                                                        <next>
-                                                          <block type="movement_forward" id="84">
-                                                            <next>
-                                                              <block type="movement_right" id="62">
-                                                                <next>
-                                                                  <block type="robot_delay" id="63" inline="true" disabled="true">
-                                                                    <value name="DELAY">
-                                                                      <block type="math_number" id="64">
-                                                                        <field name="NUM">1700</field>
-                                                                      </block>
-                                                                    </value>
-                                                                    <next>
-                                                                      <block type="movement_stop" id="74"></block>
-                                                                    </next>
-                                                                  </block>
-                                                                </next>
-                                                              </block>
-                                                            </next>
-                                                          </block>
-                                                        </next>
                                                       </block>
                                                     </next>
                                                   </block>
