@@ -1,8 +1,8 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="sensor_object" id="160" x="-140" y="-4">
-    <field name="OBJECT">LEFTFRONT</field>
+  <block type="sensor_button" id="192" x="-152" y="13">
+    <field name="OBJECT">UP</field>
   </block>
-  <block type="sensor_light" id="177" x="-149" y="21">
-    <field name="LIGHT">LEFT</field>
+  <block type="sensor_object" id="199" x="-132" y="39">
+    <field name="OBJECT">LEFTFRONT</field>
   </block>
 </xml>
