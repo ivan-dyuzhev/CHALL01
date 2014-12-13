@@ -2,4 +2,7 @@
   <block type="sensor_object" id="160" x="-140" y="-4">
     <field name="OBJECT">LEFTFRONT</field>
   </block>
+  <block type="sensor_light" id="177" x="-149" y="21">
+    <field name="LIGHT">LEFT</field>
+  </block>
 </xml>
