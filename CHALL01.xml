@@ -1,6 +1,33 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="procedures_defreturn" id="547" inline="false" x="-747" y="-537">
-    <mutation></mutation>
-    <field name="NAME">DO SOMETHING SANRT</field>
+  <block type="movement_left" id="557" x="-561" y="-439">
+    <next>
+      <block type="robot_delay" id="559" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="566">
+            <field name="NUM">1500</field>
+          </block>
+        </value>
+        <next>
+          <block type="movement_stop" id="576">
+            <next>
+              <block type="movement_forward" id="586">
+                <next>
+                  <block type="robot_delay" id="588" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="595">
+                        <field name="NUM">1500</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="movement_right" id="605"></block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
   </block>
 </xml>
