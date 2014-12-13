@@ -1,8 +1,11 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="sensor_button" id="192" x="-152" y="13">
-    <field name="OBJECT">UP</field>
-  </block>
-  <block type="sensor_object" id="199" x="-132" y="39">
-    <field name="OBJECT">LEFTFRONT</field>
+  <block type="movement_left" id="210" x="-151" y="37">
+    <next>
+      <block type="movement_stop" id="220">
+        <next>
+          <block type="movement_right" id="230"></block>
+        </next>
+      </block>
+    </next>
   </block>
 </xml>
