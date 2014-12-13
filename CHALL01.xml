@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="sensor_object" id="160" x="23" y="-2">
+  <block type="sensor_object" id="160" x="-140" y="-4">
     <field name="OBJECT">LEFTFRONT</field>
   </block>
 </xml>
